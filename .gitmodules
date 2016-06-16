@@ -1,0 +1,3 @@
+[submodule "src/devops-docker-cloud9"]
+	path = src/devops-docker-cloud9
+	url = git@github.com:mateothegreat/devops-docker-cloud9.git
