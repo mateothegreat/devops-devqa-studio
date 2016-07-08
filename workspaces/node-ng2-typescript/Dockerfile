@@ -16,8 +16,6 @@ RUN apt-get -y install nodejs && \
 
 WORKDIR /projects
 
-RUN npm install phantomjs-prebuilt gulp bower grunt grunt-cli yeoman-generator yo generator-angular generator-karma generator-webapp
-
 EXPOSE 3000 5000 9000
 
 CMD tail -f /dev/null
