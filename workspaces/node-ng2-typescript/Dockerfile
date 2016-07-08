@@ -8,7 +8,7 @@ USER root
 
 RUN apt-get -y install nodejs && \
     apt-get -y clean && \
-    rm -rf /var/lib/apt/lists/* && 
+    rm -rf /var/lib/apt/lists/*
 
 USER user
 
