@@ -6,7 +6,10 @@ FROM codenvy/ubuntu_jre
 
 USER root
 
-RUN apt-get -y install nodejs && \
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+
+RUN apt-update && \
+    apt-get -y install nodejs && \
     apt-get -y clean && \
     rm -rf /var/lib/apt/lists/*
 
