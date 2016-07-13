@@ -7,6 +7,7 @@
 ## Installation
 1. `git clone --recurse-submodules https://github.com/mateothegreat/devops-devqa-studio.git`
 2. `cd devops-devqa-studio/bin && ./build.sh && ./ide-start.sh`
+3. Review the [Cloud9 Contributor License Agreement](https://github.com/c9/core#contributing) See [https://c9.io](https://c9.io) for more info.
 
 By default, source files reside on the filesystem of the host (i.e.: the vm in virtualbox, aws, etc.) and are "virtually mounted" on the filesystem inside of the docker container as /home/$USER/workspace *([see Dockerfile#L31](https://github.com/mateothegreat/devops-docker-cloud9/blob/master/Dockerfile#L31))*.
 
